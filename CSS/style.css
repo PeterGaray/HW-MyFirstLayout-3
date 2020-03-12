@@ -1,0 +1,144 @@
+.header-body-parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+ max-width: 900px;
+}
+
+.header {
+  display: flex;
+}
+
+.header-image-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.header-image {
+  
+}
+
+.header-name {
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: "Raleway";
+  float: left;
+  color: black;
+  opacity: 60%;
+  margin-left: 16px;
+}
+
+:hover.header-name {
+  color: #ff7d51;
+  cursor: pointer;
+}
+
+:hover.header-image {
+  cursor: pointer;
+}
+
+.header-nav-container {
+ display: flex; 
+ max-width: 1080px;
+ justify-content: center;
+}
+
+.header-nav {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: black;
+  line-height: 31px;
+  margin-left: 16px;
+}
+
+:hover.header-nav {
+  color: #ff7d51;
+  cursor: pointer;
+}
+
+.outer-frame {
+  flex: 1;
+}
+
+.frame {
+  position: relative;
+  height: 490px;
+  width: 280px;
+}
+
+.backgroundbox {
+  position: absolute;
+  height: 465px;
+  width: 250px;
+  background-color: #ff7d51;
+  opacity: 60%;
+}
+
+.myimage {
+  position: absolute;
+  height: 465px;
+  width: 250px;
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 36px;
+}
+
+.paragraph {
+  padding-bottom: 12px;
+  font-family: "Roboto", Georgia, serif;
+}
+
+.title {
+  color: #442f56;
+  font-size: 36px;
+  font-family: "Raleway", "Helvetica Neue", sans-serif;
+  padding-bottom: 12px;
+}
+
+.introduction-section {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+
+.about-me-section {
+  padding-left: 48px;
+}
+
+.css-is-deranged {
+  font-size: 14px;
+  color: #442f56;
+}
+
+.content-footer {
+  text-align: center;
+  margin-top: 240px;
+  padding: 12px 0;
+  text-align: center;
+  height: 75px;
+  background-color: #c4d3dc;
+  font-family: "Roboto", Georgia, serif;
+}
+
+:hover.css-is-deranged {
+  color: #ff7d51;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.content-footer > p {
+  color: #643969;
+}
+a {
+    font-weight: bold;
+    color: #643969;
+  }
+   
+
